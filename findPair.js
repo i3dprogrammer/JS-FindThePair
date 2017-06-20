@@ -45,7 +45,6 @@ function run(){
 	}
 
 	$("[name=cards]").click(function(){
-		console.log("WTF");
 		if(showen<2){
 			cards[$(this).attr("id")].flipUp();
 		} 
